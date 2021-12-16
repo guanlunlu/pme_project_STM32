@@ -1,0 +1,8 @@
+end_joint.c:14:6:endjoint_Init	16	static
+end_joint.c:52:6:endjoint_hardware_set	16	static
+end_joint.c:82:6:servo_reset_pose	16	static
+end_joint.c:90:6:sucker_reset	16	static
+end_joint.c:101:6:endjoint_script	16	static
+end_joint.c:167:6:endjoint_work	64	static
+end_joint.c:198:6:servo_move	56	static
+end_joint.c:219:6:suck_check	16	static

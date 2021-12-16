@@ -1,0 +1,4 @@
+control.c:6:6:PID	40	static
+control.c:76:6:interpolation	32	static
+control.c:121:6:feedForward	32	static
+control.c:127:6:s_curve	104	static

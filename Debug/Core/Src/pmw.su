@@ -1,0 +1,5 @@
+pmw.c:6:6:pmw_init	24	static
+pmw.c:34:6:registerWrite	16	static
+pmw.c:67:9:registerRead	24	static
+pmw.c:86:6:initRegisters	16	static
+pmw.c:165:6:readMotionCount	16	static

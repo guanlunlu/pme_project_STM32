@@ -1,0 +1,28 @@
+{
+    "env": {
+        "STM32CubetoolPath": "C:/ST/STM32CubeIDE_1.0.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346"
+    },
+    "configurations": [
+        {
+            "name": "STM32-c",
+            "includePath": [
+                "${workspaceFolder}/Core/Inc/",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include/",
+                "${workspaceFolder}/Drivers/CMSIS/Include/",
+                "${STM32CubetoolPath}/tools/arm-none-eabi/include/sys",
+                "${STM32CubetoolPath}/tools/arm-none-eabi/include/machine"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F429xx"
+            ],
+            "compilerPath": "${STM32CubetoolPath}/tools/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

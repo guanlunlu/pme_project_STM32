@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "robot.h": "c",
+        "tim.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_conf.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

@@ -1,0 +1,4 @@
+communicate.c:19:6:Uart_Transmit	16	static
+communicate.c:29:7:Uart_Crc_Check	24	static
+communicate.c:35:6:Uart_RxCplt	96	static
+communicate.c:172:6:Tx_Data_Update	64	static
